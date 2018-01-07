@@ -3,19 +3,21 @@
 ||		by Taylor Ecton						 ||
 || ********************************************************************* ||
 
+This is a program that I wrote for my Intro to Graphics and Image
+processing course! It allows the user to load in two images, set control
+points, and generate a morph between the two images.
+
 Files:
-	The .tar.gz file that contained this README.txt should also
-	contain:
-		- Jama-1.0.3.jar
-		+ src/
-		|-------- ImageMorph.java
-		|-------- ImageMorphHelpWindow.java
-		|-------- ImageMorphIO.java
-		|-------- ImageMorphMenu.java
-		|-------- ImageMorphController.java
-		|-------- ImageMorphWindow.java
-		|-------- MorphController.java
-		|-------- SettingsPanel.java
+	- Jama-1.0.3.jar
+	+ src/
+	|-------- ImageMorph.java
+	|-------- ImageMorphHelpWindow.java
+	|-------- ImageMorphIO.java
+	|-------- ImageMorphMenu.java
+	|-------- ImageMorphController.java
+	|-------- ImageMorphWindow.java
+	|-------- MorphController.java
+	|-------- SettingsPanel.java
 
 Compilation:
 	The project was written in IntelliJ IDEA, and is currently
@@ -72,6 +74,13 @@ Exporting:
 	To export a project as a series of JPEG files, choose 'File' ->
 	'Export...', and select the directory in which the files should
 	be saved. The morph will play out as the project is exporting.
+
+Known Issues:
+	- If the screen resolution of the computer is not high enough,
+	  the program does not resize the window to fit the user's screen.
+	- If an image smaller than 600x400 is loaded in, the application
+	  window resizes in a way that causes the controls to overlap and
+	  be unusable.
 
 Questions / Issue Reporting:
 	If you have any questions not answered by this README.txt file,
